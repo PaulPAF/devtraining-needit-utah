@@ -23,8 +23,9 @@
                 <element inactive="true" inactive_on_update="true" label="Developer Enablement" sequence="0" value="dev_enable"/>
             </choice>
         </element>
-        <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
+        <element label="Requested for Email" mandatory="true" max_length="40" name="new_field_1" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
     </element>
 </database>
